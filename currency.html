@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <script>
+    function convertCurrency() {
+      var usd = prompt("Enter amount in USD:");
+      var exchangeRate = 0.85; // Example exchange rate (USD to EUR)
+      var euro = usd * exchangeRate;
+      alert("$" + usd + " is equal to €" + euro);
+    }
+
+    // Trigger the conversion
+    convertCurrency();
+  </script>
+</body>
+</html>
